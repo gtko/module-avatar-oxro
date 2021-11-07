@@ -6,6 +6,9 @@ namespace Modules\AvatarOxro\Services;
 
 use Modules\BaseCore\Contracts\Services\AvatarContract;
 
+/**
+ * Connection a l'api avatar oxro
+ */
 class AvatarOxroService implements AvatarContract
 {
 
