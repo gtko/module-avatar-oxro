@@ -21,7 +21,7 @@ class AvatarOxroServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(AvatarContract::class, AvatarOxroService::class);
+        $this->app->scoped(AvatarContract::class, AvatarOxroService::class);
     }
 
 
